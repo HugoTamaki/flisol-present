@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ruby on Rails - Agilidade e rapidez no desenvolvimento Web</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="sky.css">
+		<link rel="stylesheet" href="test.css">
+    <link href="emoji.css" rel="stylesheet">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style>
+			h2 {
+				font-family: "Arial";
+				color: black;
+				font-size: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="fragments" data-background="#333333">
+					<h1>JSON WEB TOKEN</h1><br/>
+					<h2>Para autenticação entre duas entidades</h2>
+				</section>
+        <section id="fragments" data-background="#333333">
+          <h3>Hugo Koji Tamaki</h3>
+
+          <p>Analista de Sistemas</p>
+          <ul>
+            <li>Ruby</li>
+            <li>Ruby on Rails</li>
+            <li>JavaScript</li>
+            <li>Ionic</li>
+          </ul>
+        </section>
+				<section id="fragments" data-background="#333333">
+					<h3>Por que autenticação é importante?</h3>
+
+          <ul>
+            <li>Não permite acesso aberto do sistema a qualquer um</li>
+            <li>Permite identificar que você é você</li>
+            <li>Permite acessar o sistema apenas estando logado</li>
+          </ul>
+				</section>
+				<section id="fragments" data-background="#333333">
+					<h3>APIs e outros serviços</h3>
+
+          <img src="images/diagram1.png" alt="">
+				</section>
+				<section id="fragments" data-background="#333333">
+					<h3>Autenticação token salvo em BD</h3>
+
+          <img src="images/diagram2.png" alt="">
+        </section>
+        <section id="fragments" data-background="#333333">
+          <h3>Autenticação com JWT</h3>
+
+          <img src="images/diagram3.png" alt="">
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: []
+			});
+
+		</script>
+	</body>
+</html>

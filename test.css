@@ -1,0 +1,43 @@
+.reveal h1 {
+  color: #fff;
+}
+
+.reveal h2 {
+  color: #fff;
+}
+
+.reveal h3 {
+  color: #fff;
+}
+
+.reveal p {
+  color: #fff;
+}
+
+.reveal ul li {
+  color: #fff;
+}
+
+h2 {
+	font-family: "Arial";
+	font-size: 20px;
+}
+
+pre {
+	background-color: #CEC4C4;
+}
+
+a {
+	color: black;
+}
+
+.empresas {
+	width: 200px;
+	height: 200px;
+}
+
+section {
+	font-family: "Mistral";
+}
+
+/*pre { background: #CEC4C4; padding: 10px; color: #228822; }.ruby .normal { color: #fff; }.ruby .comment { color: #005; font-style: italic; }.ruby .keyword { color: #A44; font-weight: bold; }.ruby .method { color: #44f; }.ruby .class { color: #0c4; }.ruby .module { color: #050; }.ruby .punct { color: #668; font-weight: bold; }.ruby .symbol { color: #ff0; }.ruby .string { color: #4f4; }.ruby .char { color: #F07; }.ruby .ident { color: #fff; }.ruby .constant { color: #0c4; }.ruby .regex { color: #B66; background: #FEF; }.ruby .number { color: #F99; }.ruby .attribute { color: #fc4; }.ruby .global { color: #7FB; }.ruby .expr { color: #227; }.ruby .escape { color: #277; }*/
